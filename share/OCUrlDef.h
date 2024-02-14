@@ -1,5 +1,13 @@
 #pragma once
 
+#ifdef isDll
+#define dllExport extern "C" __declspec(dllexport)
+
+#else
+#define dllExport extern "C" __declspec(dllimport)
+#endif // isDll
+
+
 #define IN
 #define OUT
 #define OCAPI
@@ -47,6 +55,10 @@ namespace OCHttp {
 			virtual int setPassword(IN char[200])				= 0;
 			virtual int setUrlPath(IN char[500])				= 0;
 			virtual int setExtrInfo(IN char[500])				= 0;
+
+			// 定义用于更新数据的API
+			virtual int crackUrl() = 0;
+			virtual int createUrl() = 0;
 
 		protected:
 			OUrlObject* urlObject;
