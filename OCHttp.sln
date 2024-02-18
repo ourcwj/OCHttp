@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "share", "share\share.vcxite
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OCUrl", "OCUrl\OCUrl.vcxproj", "{783DA909-E527-4BF3-A84C-C9A0F38051B8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testProject", "testProject\testProject.vcxproj", "{2512A2FB-ACB0-4629-8229-C161F4755BA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,6 +38,14 @@ Global
 		{783DA909-E527-4BF3-A84C-C9A0F38051B8}.Release|x64.Build.0 = Release|x64
 		{783DA909-E527-4BF3-A84C-C9A0F38051B8}.Release|x86.ActiveCfg = Release|Win32
 		{783DA909-E527-4BF3-A84C-C9A0F38051B8}.Release|x86.Build.0 = Release|Win32
+		{2512A2FB-ACB0-4629-8229-C161F4755BA9}.Debug|x64.ActiveCfg = Debug|x64
+		{2512A2FB-ACB0-4629-8229-C161F4755BA9}.Debug|x64.Build.0 = Debug|x64
+		{2512A2FB-ACB0-4629-8229-C161F4755BA9}.Debug|x86.ActiveCfg = Debug|Win32
+		{2512A2FB-ACB0-4629-8229-C161F4755BA9}.Debug|x86.Build.0 = Debug|Win32
+		{2512A2FB-ACB0-4629-8229-C161F4755BA9}.Release|x64.ActiveCfg = Release|x64
+		{2512A2FB-ACB0-4629-8229-C161F4755BA9}.Release|x64.Build.0 = Release|x64
+		{2512A2FB-ACB0-4629-8229-C161F4755BA9}.Release|x86.ActiveCfg = Release|Win32
+		{2512A2FB-ACB0-4629-8229-C161F4755BA9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
