@@ -13,6 +13,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OCUrl", "OCUrl\OCUrl.vcxproj", "{783DA909-E527-4BF3-A84C-C9A0F38051B8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testProject", "testProject\testProject.vcxproj", "{2512A2FB-ACB0-4629-8229-C161F4755BA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B9EE7BA-6988-4948-8589-D3B8E26B6952} = {2B9EE7BA-6988-4948-8589-D3B8E26B6952}
+		{783DA909-E527-4BF3-A84C-C9A0F38051B8} = {783DA909-E527-4BF3-A84C-C9A0F38051B8}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +58,7 @@ Global
 		SolutionGuid = {E62C8D7F-03C0-4EF7-90B9-8616DAB9A32A}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		share\share.vcxitems*{2512a2fb-acb0-4629-8229-c161f4755ba9}*SharedItemsImports = 4
 		share\share.vcxitems*{2b9ee7ba-6988-4948-8589-d3b8e26b6952}*SharedItemsImports = 4
 		share\share.vcxitems*{783da909-e527-4bf3-a84c-c9a0f38051b8}*SharedItemsImports = 4
 		share\share.vcxitems*{dd3108c2-ad0e-4b48-9db7-55009c92133b}*SharedItemsImports = 9

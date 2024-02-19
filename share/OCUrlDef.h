@@ -19,7 +19,9 @@ namespace OCHttp {
 
 	namespace OCUrl {
 
-		typedef struct OUrlObject
+		dllExport int test1(int nb);
+
+		struct OUrlObject
 		{
 			char url[1500];
 			short int port;
