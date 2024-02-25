@@ -5,7 +5,7 @@ namespace OCHttp {
 
 	namespace OCUrl {
 
-		class Url :public OCHttp::OCUrl::OCURLBASE {
+		class Url :public OCHttpDef::OCUrl::OCURLBASE {
 
 			Url(IN char url[]);
 			~Url();

@@ -15,11 +15,9 @@
 #define INTERNET_PORTOCOL_HTTP	0x00000001	// Http协议
 #define INTERNET_PORTOCOL_HTTPS 0x00000002	// Https协议
 
-namespace OCHttp {
+namespace OCHttpDef {
 
 	namespace OCUrl {
-
-		dllExport int test1(int nb);
 
 		struct OUrlObject
 		{

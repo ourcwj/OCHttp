@@ -7,7 +7,7 @@ using namespace OCHttp::OCUrl;
 
 Url::Url(IN char url[])
 {
-	urlObject = new OUrlObject;
+	urlObject = new OCHttpDef::OCUrl::OUrlObject;
 }
 
 Url::~Url()
