@@ -6,6 +6,3 @@
 
 #include <iostream>
 #include <Windows.h>
-
-#define isDll
-#include "OCUrlDef.h"
