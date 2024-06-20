@@ -2,15 +2,17 @@
 #include "Perdefine.h"
 namespace octest {
 
-	class OCAPI testClass {
+	class testClass {
 	public:
-		testClass();
-		~testClass();
 
+		virtual int set(int a) = 0;
+		virtual int get() = 0;
 
-	private:
-		int testInt;
+	protected:
+
 
 	};
+
+	OCAPI octest::testClass* OPtestClass();
 
 }
